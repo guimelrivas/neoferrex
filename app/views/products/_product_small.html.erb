@@ -1,26 +1,30 @@
 
+
+
+
 <div class="hero-body">
   <div class="container has-text-centered">
       <div class="columns is-vcentered">
           <div class="column is-5">
-              <figure class="image is-4by3">
-                  <img src=<%= product.img_url %> alt="Description">
-              </figure>
+              
+          
           </div>
           <div class="column is-6 is-offset-1">
               <h1 class="title is-2">
-                <div id="<%= dom_id product %>">
-                    <p><%= product.name %></p>
+               
+
               </h1>
               <h2 class="subtitle is-4">
+               
                 <p> <strong>Referencia:</strong> <%= product.reference %>  </p>
                 <p> <strong>Descripción:</strong> <%= product.description %> </p>
                 <p> <strong>Cantidad disponible:</strong> <%= product.quantity %> </p>
                 <p> <strong>Precio:</strong>  <%= product.price %> </p>
+              
               </h2>
               <br>
               <p class="has-text-centered">
-                <%= link_to "Show this product", product, class: 'button is-link' %>
+              
               </p>
           </div>
       </div>
